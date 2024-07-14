@@ -1,0 +1,17 @@
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+
+# Ignore editor files
+.vscode/
+.idea/
+
+# Ignore build artifacts
+dist/
+.cache/
+
+# Ignore environment variables file
+.env
+
+# Ignore package manager directories
+node_modules/
