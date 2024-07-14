@@ -1,13 +1,37 @@
+body{
+    font-family: Futura, serif;
+    font-weight: normal;
+}
 .download-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #4CAF50;
-    color: white;
+    background-color: #FFA09A;
+    color: black;
     text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
 }
 
 .download-button:hover {
-    background-color: #45a049;
+    background-color: #ffbeba;
+}
+
+h1{
+    font-family: Bretty, "Brush Script MT", serif;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+h2{
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.description{
+    font-size: 18px;
+}
+
+@font-face {
+    font-family: Bretty;
+    src: url("font/Breetty_Regular.otf") format("opentype");
 }
