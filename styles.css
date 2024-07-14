@@ -122,6 +122,7 @@ main{
         bottom: 0;
         width: 50%;
     }
+
     .flowers:last-of-type{
         right: 0;
     }
@@ -134,6 +135,14 @@ main{
 
     header{
         margin-top: 0;
+    }
+
+    .trees, .flowers_top, .flowers:last-of-type{
+        display: none;
+    }
+
+    .background .flowers {
+        width: 100%;
     }
 }
 
